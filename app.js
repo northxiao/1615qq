@@ -107,7 +107,7 @@ require(["jquery", "backbone", "router"], function($, Backbone, router){
 // // });
 
 
-window.location.hash="#home";
+// window.location.hash="#home";
 //线上参考demo地址
 //http://www.runoob.com/w3cnote/requirejs-tutorial-1.html
 //http://www.runoob.com/w3cnote/requirejs-tutorial-2.html
