@@ -1,0 +1,225 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x:hidden;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	margin: 0;
+	padding: 0;
+}
+.Sheader{
+	width: 10.0rem;
+	height: 1.449275rem;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9;
+	background: rgb(255, 214, 0);
+}
+.Sheader .header1 {
+	float: left;
+	width: 6.231884rem;
+	height: 1.400966rem;
+	margin-left: 1.859903rem;
+}
+.Sheader .header1 span{
+	width: 6.231884rem;
+	color: #333;
+	display: inline-block;
+	font-size: 0.434783rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.Sheader .header2{
+	float: left;
+	width: 1.859903rem;
+	height: 1.400966rem;
+	background: url(../../img/下载.png)no-repeat 0.966184rem 0.144928rem;
+	background-size: 0.603865rem 0.603865rem;
+
+}
+.Sheader .header2 span{
+	width: 1.859903rem;
+	display: inline-block;
+	font-size: 0.289855rem;
+	margin:0.869565rem 0 0 0.966184rem; 
+}
+.Scontent{
+	clear: both;
+	margin-top: 1.449275rem;
+}
+.Scontent .Sleft{
+	float: left;
+	width: 2.380749rem;
+	height:14.790338rem;
+	font-size: 0.375894rem;	
+	overflow-y: scroll;
+}
+.Scontent .Sleft ul li{
+	position: relative;
+	width: 2.380749rem;
+	height: 1.247729rem;
+	line-height: 1.247729rem;
+	text-align: center;
+	background-color: #f8f8f8;
+	border-bottom: 1px solid rgb(224, 224, 224);
+	color:#6d6d6d;
+}
+.Scontent .Sleft ul li span{
+	position: absolute;
+	left: 0;
+	top: 0.120773rem;
+	width: 0.120773rem;
+	height: 1.014493rem;
+	background: none;
+	display: inline-block;
+}
+.Scontent .Sleft ul li img{
+	position: absolute;
+	width: 0.869565rem;
+	height: 0.917874rem;
+	top: 0;
+	right: 0;
+}
+.Scontent .Sright{
+	width: 7.518357rem;
+	float: right;
+}
+.Scontent .Sright .Sheader{
+	position: fixed;
+	color: #777;
+	font-size: 0.375894rem;
+	width: 7.518357rem;
+	height: 1.256039rem;
+	line-height: 1.256039rem;
+	left: 2.463768rem;
+	top: 1.449275rem;
+	background: none;
+	text-align: center;
+}
+.Scontent .Sright .Sheader .span1{
+	float: left;
+	width: 3.747101rem;
+	height: 1.256039rem;
+	display: inline-block;
+	border-bottom: 1px solid #777;
+}
+.Scontent .Sright .Sheader .span1 i{
+	width: 3.747101rem;
+	height: 0.624638rem;
+	line-height: 0.624638rem;
+	font-style: normal;
+	border-right: 1px solid #777;
+	display: inline-block;
+	background: url(../../img/xiarow.png)no-repeat 2.657005rem center;
+	background-size: 0.434783rem 0.362319rem;
+}
+.Scontent .Sright .Sheader .span2{
+	float: left;
+	width: 3.757101rem;
+	height: 1.256039rem;
+	display: inline-block;
+	border-bottom: 1px solid #777;
+}
+.Scontent .Sright .Sheader .span2 i{
+	width: 3.767101rem;
+	height: 0.624638rem;
+	line-height: 0.624638rem;
+	font-style: normal;
+	display: inline-block;
+	background: url(../../img/xiarow.png)no-repeat 2.657005rem center;
+	background-size: 0.434783rem 0.362319rem;
+}
+.Sright .ulall{
+	clear: both;
+	height:14.790338rem;
+	margin-top:1.405314rem; 
+	overflow: scroll;
+}
+.Sright .ulall ul li{
+	height: 2.843478rem;
+	position: relative;
+	border-bottom:1px solid rgb(224, 224, 224);
+}
+.Sright .ulall ul li img{
+	width: 2.506039rem;
+	height: 2.506039rem;
+	float: left;
+	margin-top: 0.169082rem;
+}
+.Sright .ulall ul li .div1{
+	float: left;
+	width: 194.53px;
+	font-size: 0.375894rem;
+	margin-left: 0.120773rem;
+	margin-top: 0.169082rem;
+}
+.Sright .ulall ul li .div1 p{
+	width: 194.53px; 
+	height: 0.603865rem;
+	line-height: 0.603865rem;
+	font-size: 0.375894rem;
+}
+.Sright .ulall ul li .div1 p:nth-child(1){
+	font-size: 0.375894rem;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.Sright .ulall ul li .div1 p:nth-child(2) span{
+	width: 0.862319rem;
+	height: 0.400725rem;
+	line-height: 0.400725rem;
+	color: red;
+	font-size: 0.313237rem;
+	text-align: center;
+	border: 1px solid red;
+	display: inline-block;
+	border-radius: 0.120773rem;
+}
+.Sright .ulall ul li .div1 p:nth-child(4){
+	color: #999;
+}
+.Sright .ulall ul li .div1 p:nth-child(4) .span1{
+	color: #ff3800;
+}
+.Sright .ulall ul li .div1 p:nth-child(4) i{
+	font-style: normal;
+}
+.Sright .ulall ul li .div1 p:nth-child(4) .span2{
+	color: #999;
+}
+.Sright .ulall ul li .div2{
+	width: 3.132609rem;
+	height: 1.566184rem;
+	position:absolute;
+	right: 0;
+	top: 0.845411rem;
+}
+.Sright .ulall ul li .div2 span{
+	position: absolute;
+	right: 0.483092rem;
+	top: 0.338164rem;
+	width: 0.862802rem;
+	height: 0.862802rem;
+	line-height: 0.862802rem;
+	text-align: center;
+	display: inline-block;
+	border-radius: 50%;
+	font-weight: bold;
+	color: rgb(255, 67, 0);
+	border: 1px solid rgb(224, 224, 224);
+}
+.Sright .ulall ul li:last-child{
+	margin-bottom: 1.207729rem;
+}

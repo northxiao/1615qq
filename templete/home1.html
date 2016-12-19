@@ -1,0 +1,59 @@
+<script type="text/html" id="home">
+		<%for(var i in data.act_info[1].act_rows){%>
+			<%if(i<4){%>
+				<li>
+				<img src="<%=data.act_info[1].act_rows[i].activity.img%>" alt="">
+				<p class="p"><%=data.act_info[1].act_rows[i].activity.name%></p>
+			</li>
+			<%}%>
+		<%}%>
+</script>
+<script type="text/html" id="home1">
+	<%for(var i in data.act_info[3].act_rows){%>
+		<%if(i<3){%>
+			<li>
+				<img src="<%=data.act_info[3].act_rows[i].activity.img%>" alt="">
+			</li>
+		<%}%>
+		
+	<%}%>
+</script>
+<script type="text/html" id="home2">
+	<%for(var i in data.act_info[4].act_rows){%>
+		<li>
+			<img src="<%=data.act_info[4].act_rows[i].activity.img%>" alt="">
+		</li>
+	<%}%>
+</script>
+<script type="text/html" id="home3">
+	<%for(var i in data.act_info[5].act_rows){%>
+		<li>
+			<div class="Hmain2top">
+				<p><span></span><%=data.act_info[5].act_rows[i].activity.name%></p>
+				<span class="span"><b>更多</b><i>&gt;</i></span>
+		    </div>
+		    <div class="imgdiv1">
+		    	<img src="<%=data.act_info[5].act_rows[i].activity.img%>" alt="" class="img">
+		    </div>
+		    <ul class="ul">
+		   <%for(var j in data.act_info[5].act_rows[i].category_detail.goods){%>
+			<li>
+				<img src="<%=data.act_info[5].act_rows[i].category_detail.goods[j].img%>" class='img' alt="">
+				<p class="p1 p0"><%=data.act_info[5].act_rows[i].category_detail.goods[j].name%></p>
+				<span class="span1">精选</span>
+				<div>
+					<p class="p1"><%=data.act_info[5].act_rows[i].category_detail.goods[j].specifics%></p>
+					<p class="p2"><span class="span2">¥</span><span class="span3"><%=data.act_info[5].act_rows[i].category_detail.goods[j].market_price%></span></p>
+					<span class="span4">+</span>
+				</div>
+			</li>
+			<%}%>
+			</ul>
+		</li>
+	<%}%>
+</script>
+<script type="text/html" id="lunbotu">
+	<%for(var i in data.act_info[0].act_rows){%>
+		<div class="swiper-slide"><img src="<%=data.act_info[0].act_rows[i].activity.img%>" alt=""></div>
+	<%}%>
+</script>>

@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.DIV{
+	height: 100%;
+	background-color: #efefef;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	margin: 0;
+	padding: 0;
+}
+.Seoreheader{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	width: 10rem;
+	height: 1.409662rem;
+	line-height: 1.409662rem;
+	background: #f9fafd;
+}
+.Seoreheader .span1 img{
+	width: 0.903865rem;
+	height: 0.903865rem;
+	float: left;
+	margin-top: 0.283092rem;
+}
+.Seoreheader input{
+	float: left;
+	width: 6.201691rem;
+	height: 0.812319rem;
+	font-size: 0.437488rem;
+	margin-top: 0.275362rem;
+	border-radius: 0.120773rem;
+	margin-left: 0.966184rem;
+	text-indent: 0.966184rem;
+	background: url(../../img/search.png)no-repeat 0.241546rem center;
+	background-size: 0.383092rem 0.383092rem;
+	border: 1px solid rgb(224, 224, 224);
+}
+.Seoreheader .span2{
+	margin-right: 0.683092rem;
+	color: #333;
+	font-size: 0.438551rem;
+	float: right;
+}
+.Secontent{
+	clear: both;
+	width: 10rem;
+	padding-top: 2.409662rem;
+	/*background-color: #efefef;*/
+}
+.Secontent h4{
+	width: 9.531159rem;
+	color: #888;
+	font-size: 0.375rem;
+	margin-left: 0.468841rem;
+}
+.Secontent ul{
+	margin-left: 0.468841rem;
+	width: 9.531159rem;
+	height: 5.497101rem;
+	font-size: 0.375rem;
+	/*margin-bottom: 1.207729rem;*/
+}
+.Secontent ul li{
+	padding:0.362319rem 0.483092rem ;
+	border: 0.024155rem solid #fff;
+	border-radius: 0.512319rem;
+	margin:0.241546rem 0.362319rem 0.241546rem 0;
+	float: left;
+	background: #fff;
+}
+.Sejilu{
+	clear: both;
+	/*margin-top: 1.207729rem;*/
+	/*background-color: #efefef;*/
+}
+.Sejilu h4{
+	width: 9.531159rem;
+	color: #888;
+	font-size: 0.375rem;
+	margin-left: 0.468841rem;
+}
+.Sejilu p{
+	width: 10rem;
+	margin-top: 1.932367rem;
+	font-size: 0.437488rem;
+	color: #aaa;
+}
+.Sejilu p span{
+	width: 6.718841rem;
+	height: 1.298309rem;
+	line-height: 1.298309rem;
+	border: 0.024155rem solid rgb(224, 224, 224);
+	border-radius: 0.120773rem;
+	text-align: center;
+	display: inline-block;
+	margin-left: 1.594203rem;
+
+}

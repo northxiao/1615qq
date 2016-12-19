@@ -1,0 +1,20 @@
+<script type="text/html" id="send1">
+    <li>
+    <ul>
+	<%for(var i in data){%>
+			<li>
+				<img data-original="<%=data[i].img%>" class="lazy" >
+				<div class="div1">
+					<p><%=data[i].name%></p>
+					<p><span>精选</span></p>
+					<p><%=data[i].specifics%></p>
+					<p><span class="span1"><i>¥</i><%=data[i].partner_price%></span><span class="span2"><i>¥</i><del><%=data[i].market_price%></del></span></p>
+				</div>
+				<div class="div2">
+					<span>+</span>
+				</div>
+			</li>
+	<%}%>
+	</ul>
+	</li>
+</script>

@@ -1,0 +1,236 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x:hidden;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	margin: 0;
+	padding: 0;
+}
+.Cheader{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 10rem;
+	height: 1.433816rem;
+	line-height: 1.433816rem;
+	text-align: center;
+	font-size: 0.438551rem;
+	color: #333;
+	background: #f9fafd;
+}
+.Caddress{
+	clear: both;
+	width: 10rem;
+	margin-top:1.433816rem; 
+}
+.Caddress table{
+	width: 10rem;
+	height: 3.478261rem;
+	font-size: 0.438551rem;
+	border: 0.120773rem solid transparent;
+	border-image:url(../../img/tablebg.png) 5 0 5 0 round; 
+}
+.Caddress table tr td:nth-child(1){
+	width: 2.801932rem;
+}
+.Caddress table tr td:nth-child(2){
+	width: 5.531401rem;
+}
+.Caddress table tr td:nth-child(3){
+	width: 1.690821rem;
+}
+.Sendshop1{
+	clear: both;
+	width: 10rem;
+	height: 1.545894rem;
+	margin-top: 0.483092rem;
+	border-bottom: 0.024155rem solid rgb(206, 206, 206);
+}
+.Sendshop1 p{
+	width: 9.6rem;
+	margin-left: 0.4rem;
+	font-size:0.375894rem;
+	color: #999;
+}
+.Sendshop .p1{
+	margin-top: 0.120773rem;
+	margin-bottom: 0.120773rem;
+}
+.Sendshop .p1 .span1{
+	float: left;
+}
+.Sendshop .p1 .span1 i{
+	width: 0.120773rem;
+	height: 0.362319rem;
+	display: inline-block;
+	background: yellow;
+	margin-right: 0.241546rem;
+}
+.Sendshop .p1 .span2{
+	float: right;
+	width: 2.241063rem;
+	height: 0.800242rem;
+	line-height:0.800242rem; 
+	text-align: center;
+	border: 1px solid rgb(255, 56, 0);
+	border-radius: 0.362319rem;
+	color: rgb(255, 56, 0);
+	margin-right: 0.483092rem;
+}
+.Sendshop .p2{
+	height: 0.603865rem;
+	line-height: 0.603865rem;
+	clear: both;
+}
+.Sendshop .p3{
+	clear: both;
+	width: 10rem;
+	height: 1.545894rem;
+	line-height: 1.545894rem;
+	font-size:0.375894rem;
+	color: black;
+	font-size: 0.438551rem;
+	border-bottom: 0.024155rem solid rgb(206, 206, 206);
+}
+.Sendshop .p3 .span1{
+	float: left;
+	margin-left: 0.4rem;
+}
+.Sendshop .p3 .span2{
+	float: left;
+	color: #e64f1a;
+	margin-left: 0.4rem;
+}
+.Sendshop .p3 .span3{
+	float: right;
+	margin-right: 0.4rem;
+}
+.Sendshop .p4{
+	color: #333;
+	font-size: 0.438551rem;
+	height: 1.545894rem;
+	line-height: 1.545894rem;
+	border-bottom: 0.024155rem solid rgb(206, 206, 206);
+}
+.Sendshop .p4 span{
+	margin-left: 0.4rem;
+	margin-right: 0.120773rem;
+}
+.Sendshop .p4 input{
+	width: 6.677295rem;
+	height: 0.850725rem;
+	border: 1px solid rgb(206, 206, 206);
+	border-radius: 0.241546rem;
+	font-size: 0.438551rem;
+	text-indent: 0.120773rem;
+}
+#table{
+	clear: both;
+	width: 10rem;
+}
+#table tbody tr{
+	width: 10rem;
+	height: 2.463768rem;
+}
+#table tr td:nth-child(1){
+	width: 1.545894rem;
+	height: 2.463768rem;
+	border-bottom: 0.024155rem solid rgb(206, 206, 206);
+}
+#table tr td:nth-child(1) img{
+	margin-left: 0.338164rem;
+}
+#table tr td:nth-child(2){
+	border-bottom: 0.024155rem solid rgb(206, 206, 206);
+}
+#table tr td:nth-child(2) img{
+	width: 1.566184rem;
+	height: 1.566184rem;
+}
+#table tr td:nth-child(3){
+	font-size: 0.438551rem;
+	width: 6.932367rem;
+	height: 2.463768rem;
+	color: #333;
+	border-bottom: 0.024155rem solid rgb(206, 206, 206);
+}
+#table tr td:nth-child(3) div .p1{
+	height: 1.231884rem;
+	line-height: 1.231884rem;
+}
+#table tr td:nth-child(3) div .p2{
+	height: 1.231884rem;
+	line-height: 1.231884rem;
+}
+#table tr td:nth-child(3) div .span2{
+	display: inline-block;
+	float: right;
+	margin-right: 0.483092rem;
+}
+#table tr td:nth-child(3) div .span2 .i1{
+	width: 0.862802rem;
+	height: 0.862802rem;
+	line-height: 0.862802rem;
+	text-align: center;
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid rgb(255, 67, 0);
+	color: rgb(255, 67, 0);
+	font-style: normal;
+	font-size: 0.438551rem;
+	font-weight: bold;
+}
+#table tr td:nth-child(3) div .span2 .i2{
+	font-style: normal;
+	font-weight: bold;
+}
+#table tr td:nth-child(3) div .span2 .i3{
+	width: 0.862802rem;
+	height: 0.862802rem;
+	line-height: 0.862802rem;
+	text-align: center;
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid rgb(255, 67, 0);
+	color: rgb(255, 67, 0);
+	font-style: normal;
+	font-size: 0.438551rem;
+	font-weight: bold;
+}
+.jiesuan{
+	clear: both;
+	width: 10rem;
+	font-size: 0.438551rem;
+	height: 1.570048rem;
+	line-height: 1.570048rem;
+	margin-top: -0.024155rem;
+}
+.jiesuan .span1{
+	margin-left: 0.4rem;
+}
+.jiesuan .span1 img{
+	float: left;
+	margin: 0.338164rem 0 0 0.4rem;
+}
+.jiesuan .span2{
+	margin-left: 0.883092rem;
+}
+.jiesuan .span3{
+	width: 3.132609rem;
+	height: 1.570048rem;
+	line-height: 1.570048rem;
+	text-align: center;
+	display: inline-block;
+	background: #ffd600;
+	font-size: 0.438551rem;
+	float: right;
+}

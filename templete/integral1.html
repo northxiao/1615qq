@@ -1,0 +1,32 @@
+<script type="text/html" id="miaosha">
+	<%for(var i=1;i<product.length;i++){%>
+		<%if(i<3){%>
+			<li>
+				<img src="<%=product[i].img%>" alt="">
+				<div>
+					<p class="p1"><%=product[i].name%></p>
+					<p class="p2"><%=product[i].specifics%></p>
+					<p class="p3">
+						<i>¥</i><span class="span1"><%=product[i].partner_price%></span><span class="span2">/ 原价:<%=product[i].market_price%></span>
+					</p>
+					<p class="p4"><span>即将开抢</span></p>
+				</div>
+			</li>
+		<%}%>
+	<%}%>
+</script>
+<script type="text/html" id="miaosha1">
+	<%for(var i=3;i<product.length;i++){%>
+		<%if(i<7){%>
+			<li>
+				<img src="<%=product[i].img%>" alt="">
+				<div>
+					<p class="p1"><%=product[i].name%></p>
+					<p class="p2"><%=product[i].specifics%></p>
+					<p class="p3"><span class="span1">¥<%=product[i].partner_price%> </span><span class="span2">¥<%=product[i].market_price%></span></p>
+					<span class="span">+</span>
+				</div>
+			</li>
+		<%}%>
+	<%}%>
+</script>
