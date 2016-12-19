@@ -1,4 +1,5 @@
 <?php
+session_start();
 class jssdk {
   private $appId;
   private $appSecret;
@@ -9,7 +10,7 @@ class jssdk {
   }
 
   public function getSignPackage() {
-    session_start();
+    
     $jsapiTicket = $this->getJsApiTicket();
     $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
     $timestamp = time();
