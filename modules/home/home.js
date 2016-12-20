@@ -46,9 +46,9 @@ define(["text!./home.html","css!./home.css", "./swiper.min.js", "css!./swiper.mi
             	console.log($(".cardtable tbody"))
             	$("#ss tbody").append(tr);
             });
-            var latitude=0,
-			    longitude=0;
-            $(".header1 span").click(function(){
+            var latitude=0;
+			var longitude=0;
+            $(".Hheader .header1 span").click(function(){
             	console.log(11)
 				wx.getLocation({
 				    type: 'wgs84', // 默认为wgs84的gps坐标，如果要返回直接给openLocation用的火星坐标，可传入'gcj02'
