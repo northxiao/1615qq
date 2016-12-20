@@ -4,6 +4,8 @@ require_once "jssdk.php";
 $jssdk = new JSSDK("wx71e48b63f9935c7d", "af46fbbc2828f60bfe1dd2bb59b7a660");
 $signPackage = $jssdk->GetSignPackage();
 ?>
+
+
 <!doctype html>
 <html lang="en">
 <head>
